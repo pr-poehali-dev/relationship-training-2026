@@ -65,7 +65,7 @@ const Index = () => {
             </div>
             <Button
               size="lg"
-              onClick={() => scrollToSection('register')}
+              onClick={() => window.open('https://t.me/Yurij5544', '_blank')}
               className="bg-gradient-to-r from-gradient-purple via-gradient-pink to-gradient-orange hover:opacity-90 transition-opacity text-white font-semibold px-8 py-6 text-lg animate-scale-in"
             >
               Зарегистрироваться на тренинг
