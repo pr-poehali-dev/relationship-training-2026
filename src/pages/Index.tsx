@@ -136,10 +136,12 @@ const Index = () => {
           </h3>
           <Card className="p-10 shadow-2xl">
             <div className="flex flex-col md:flex-row gap-8 items-center">
-              <div className="w-48 h-48 rounded-full bg-gradient-to-br from-gradient-purple via-gradient-pink to-gradient-orange p-1">
-                <div className="w-full h-full rounded-full bg-white flex items-center justify-center">
-                  <Icon name="User" size={80} className="text-gradient-purple" />
-                </div>
+              <div className="w-48 h-48 rounded-full bg-gradient-to-br from-gradient-purple via-gradient-pink to-gradient-orange p-1 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/евгений3 (1).jpg" 
+                  alt="Ведущий тренинга"
+                  className="w-full h-full rounded-full object-cover"
+                />
               </div>
               <div className="flex-1 text-center md:text-left">
                 <h4 className="text-3xl font-bold mb-4">Имя Ведущего</h4>
