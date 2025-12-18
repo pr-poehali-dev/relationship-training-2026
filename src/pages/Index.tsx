@@ -159,7 +159,7 @@ const Index = () => {
                   </li>
                   <li className="flex items-center gap-2">
                     <Icon name="Check" className="text-gradient-purple" size={20} />
-                    <span>Автор книг о психологии отношений</span>
+                    <span>Автор тренинга Мужчина и Женщина</span>
                   </li>
                 </ul>
               </div>
