@@ -46,8 +46,16 @@ const Index = () => {
         </nav>
       </header>
 
-      <section className="pt-32 pb-20 px-4">
-        <div className="container mx-auto text-center">
+      <section className="pt-32 pb-20 px-4 relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://cdn.poehali.dev/projects/c127ec41-c6a9-48db-8943-34f6ef837612/files/5860220a-5526-493a-8f86-3b6b22a361bd.jpg"
+            alt="Фон"
+            className="w-full h-full object-cover opacity-20"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-white/80 via-purple-50/90 to-pink-50/80"></div>
+        </div>
+        <div className="container mx-auto text-center relative z-10">
           <div className="animate-fade-in">
             <h2 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-gradient-purple via-gradient-pink to-gradient-orange bg-clip-text text-transparent">
               МУЖЧИНА и ЖЕНЩИНА
