@@ -144,7 +144,7 @@ const Index = () => {
                 />
               </div>
               <div className="flex-1 text-center md:text-left">
-                <h4 className="text-3xl font-bold mb-4">Имя Ведущего</h4>
+                <h4 className="text-3xl font-bold mb-4">Евгений Афанасьев</h4>
                 <p className="text-lg text-foreground/80 mb-4">
                   Сертифицированный психолог и коуч по отношениям с 15-летним опытом работы
                 </p>
