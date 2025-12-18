@@ -155,7 +155,7 @@ const Index = () => {
                   </li>
                   <li className="flex items-center gap-2">
                     <Icon name="Check" className="text-gradient-purple" size={20} />
-                    <span>Более 5000 участников по всему миру</span>
+                    <span>Более 7000 участников по всей России</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <Icon name="Check" className="text-gradient-purple" size={20} />
