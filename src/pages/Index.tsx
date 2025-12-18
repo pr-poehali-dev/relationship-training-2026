@@ -10,9 +10,11 @@ const Index = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    alert('Спасибо за регистрацию! Мы свяжемся с вами в ближайшее время.');
-    setFormData({ name: '', phone: '', email: '', message: '' });
+    const subject = encodeURIComponent('Регистрация на тренинг "МУЖЧИНА и ЖЕНЩИНА"');
+    const body = encodeURIComponent(
+      `Имя: ${formData.name}\nТелефон: ${formData.phone}\nEmail: ${formData.email}\nКомментарий: ${formData.message || 'Нет'}`
+    );
+    window.location.href = `mailto:ya@mezencevyurij.ru?subject=${subject}&body=${body}`;
   };
 
   const scrollToSection = (id: string) => {
